@@ -1,9 +1,22 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content padding>
+  <h1 class="ion-text-center">
+    <ion-icon name="checkmark-done-outline" color="primary" class="icon-7em"></ion-icon>
+  </h1>
 
-<ion-content>
+  <ion-item>
+    <ion-icon name="mail" slot="start" color="primary"></ion-icon>
+    <ion-input type="mail" aria-placeholder="Email" inputmode="email" autofocus="true"></ion-input>
+  </ion-item>
 
+  <ion-item>
+    <ion-icon name="lock-closed-outline" slot="start" color="primary"></ion-icon>
+    <ion-input type="password" aria-placeholder="Senha"></ion-input>
+  </ion-item>
+
+  <ion-button expand="block">Login</ion-button>
+  <ion-button expand="block" fill="clear">Criar conta</ion-button>
+  <ion-button expand="block">
+    <ion-icon name="logo-facebook" slot="start"></ion-icon>
+    Logar com Facebook
+  </ion-button>
 </ion-content>
